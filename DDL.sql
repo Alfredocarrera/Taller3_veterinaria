@@ -14,7 +14,7 @@ CREATE TABLE clientes (
 
 
 CREATE TABLE servicios (
-    id_servicios INT PRIMARY KEY AUTO_INCREMENT,
+    id_servicio INT PRIMARY KEY AUTO_INCREMENT,
     nombre_servicio VARCHAR(50) NOT NULL,
     precio DECIMAL(10,2) NOT NULL
 );
@@ -29,12 +29,13 @@ CREATE TABLE mascotas (
     FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
 );
 
+
 CREATE TABLE mascotas_servicios (
     id_mascota_servicio INT PRIMARY KEY AUTO_INCREMENT,
     fecha_servicio DATE NOT NULL,
     id_mascota INT,
-    id_servicios INT,
+    id_servicio INT,
     FOREIGN KEY (id_mascota) REFERENCES mascotas(id_mascota),
-    FOREIGN KEY (id_servicios) REFERENCES servicios(id_servicios)
+    FOREIGN KEY (id_servicio) REFERENCES servicios(id_servicio)
 );
 
