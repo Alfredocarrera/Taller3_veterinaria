@@ -4,13 +4,13 @@
 
 -- datos de prueba para la tabla clientes
 
-INSERT INTO clientes (nombre, direccion, correoElectronico, activo) VALUES
+INSERT INTO clientes (nombre_cliente, direccion, correoElectronico, activo) VALUES
 ('Carlos López', 'Zona 10, Ciudad de Guatemala', 'carlos.lopez@gmail.com', 1),
 ('Ana Martínez', 'Zona 14, Ciudad de Guatemala', 'ana.martinez@hotmail.com', 1),
 ('Luis Hernández', 'Calzada Roosevelt, Zona 11', 'luis.h@yahoo.com', 1),
 ('María Rodríguez', 'Carretera a El Salvador, Km 15', 'm.rodriguez@gmail.com', 1),
-('Jorge Gómez', 'Zona 1, Ciudad de Guatemala', 'jorge.gomez@outlook.com', 0),
-('Sofía Pérez', 'Zona 7, Quetzaltenango', 'sofia.perez@gmail.com', 1),
+('Joorge Gómez', 'Zona 1, Ciudad de Guatemala', 'jorge.gomez@outlook.com', 0),
+('Sfía Pérez', 'Zona 7, Quetzaltenango', 'sofia.perez@gmail.com', 1),
 ('Diego Morales', 'Zona 2, Cobán', 'diego.m@gmail.com', 1),
 ('Lucía Castillo', 'Zona 9, Ciudad de Guatemala', 'lucia.c@hotmail.com', 1),
 ('Fernando Ruiz', 'San Lucas Sacatepéquez', 'fruiz@yahoo.com', 1),
@@ -19,7 +19,7 @@ INSERT INTO clientes (nombre, direccion, correoElectronico, activo) VALUES
 
 -- datos de prueba para la tabla servicios
 
-INSERT INTO servicios (nombre, precio) VALUES
+INSERT INTO servicios (nombre_servicio, precio) VALUES
 ('Baño y Peluquería', 150.00),
 ('Consulta Médica General', 200.00),
 ('Vacunación Antirrábica', 85.00),
@@ -33,7 +33,7 @@ INSERT INTO servicios (nombre, precio) VALUES
 
 
 -- datos de prueba para la tabla mascotas
-INSERT INTO mascotas (ID_Cliente, nombre, nPatas, estatura) VALUES
+INSERT INTO mascotas (ID_Cliente, nombre_mascota, nPatas, estatura) VALUES
 (1, 'Max', 4, 0.45),
 (2, 'Luna', 4, 0.30),
 (3, 'Rocky', 4, 0.60),
