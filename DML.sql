@@ -1,4 +1,3 @@
-
 -- datos de prueba para la base de datos de la veterinaria
 -- Inserción de datos en las tablas clientes, servicios, mascotas y mascota_servicio
 
@@ -33,7 +32,7 @@ INSERT INTO servicios (nombre_servicio, precio) VALUES
 
 
 -- datos de prueba para la tabla mascotas
-INSERT INTO mascotas (ID_Cliente, nombre_mascota, nPatas, estatura) VALUES
+INSERT INTO mascotas (id_cliente, nombre_mascota, nPatas, estatura) VALUES
 (1, 'Max', 4, 0.45),
 (2, 'Luna', 4, 0.30),
 (3, 'Rocky', 4, 0.60),
@@ -48,7 +47,7 @@ INSERT INTO mascotas (ID_Cliente, nombre_mascota, nPatas, estatura) VALUES
 
 -- datos de prueba para la tabla mascota_servicio
 
-INSERT INTO mascota_servicio (ID_Mascota, ID_Servicio, fecha) VALUES
+INSERT INTO mascotas_servicios (id_mascota, id_servicio, fecha_servicio) VALUES
 (1, 1, '2026-10-01'),
 (1, 4, '2026-10-01'),
 (2, 2, '2026-10-02'),
@@ -59,3 +58,4 @@ INSERT INTO mascota_servicio (ID_Mascota, ID_Servicio, fecha) VALUES
 (7, 5, '2026-10-10'),
 (8, 7, '2026-10-12'),
 (9, 10, '2026-10-15');
+
