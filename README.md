@@ -464,4 +464,4 @@ T7_Veterinaria/
 ```
 
 ## 🎥 Video Explicativo del Proyecto
-🔗 Próximamente se agregará en esta sección el enlace del video explicativo y demostrativo del funcionamiento del sistema.
+### 🔗 **video:** https://youtu.be/vxOdI6xAn78
